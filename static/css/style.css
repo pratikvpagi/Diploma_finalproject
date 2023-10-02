@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    overflow: hidden;
+}
+.margin{
+    margin: 20px;
+}
+.container{
+    background: no-repeat url('/static/download.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-size:100vw 100vh;
+}
+.bg-orange{
+    background-color:orange;
+    width:auto;
+    text-align: center;
+}
+.bg-white{
+    background-color: white;
+}
+.opacity{
+    opacity: 30%;
+}
+.font{
+    color: red;
+}
+.width{
+    width: 400px;
+}
+.image{
+    width: auto;
+    height: auto;
+    background-image:url('/static/human_brain.jpg')
+}

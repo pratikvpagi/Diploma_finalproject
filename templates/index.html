@@ -1,0 +1,84 @@
+<html>
+<head>
+	<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	 body{
+		/* background-image:url({{user_img}}); */
+		/* background-repeat: no-repeat;
+		background-attachment: fixed;  
+		background-size: cover;
+		overflow: hidden; */
+		background-color: lightcyan;
+        }
+	.margin{
+		margin: 20px;
+	}
+	.container{
+		width: 100%;
+		height: 75%;
+		overflow: hidden;
+	}
+	.bg-orange{
+		background-color:orange;
+		width:auto;
+		text-align: center;
+	}
+	.bg-white{
+		background-color: white;
+	}
+	.opacity{
+		opacity: 30%;
+	}
+	.font{
+		color: red;
+	}
+	div{
+		overflow: hidden;
+		width: auto;
+		height: auto;
+	}
+	.width{
+		width: 400px;
+	}
+	.image{
+		width: auto;
+		height: auto;
+		/* background-image:url('/static/download.jpg') */
+	}
+	.justify-content-center{
+		background-color: blue;
+		width: max-content;
+		align-items: center;
+		justify-content: center;
+	}
+	</style>
+	<title>Brain tumor classification</title>
+</head>
+<body>
+	<div class="container image">
+		<div  class="bg-orange">
+			<!-- <img width="auto" src='static/download.jpg'> -->
+			<h1> Brain tumor classification</h1>
+		</div>	
+		<div class="margin bg-white font ">
+			<div>
+			<p><h3>A Brain tumor is considered as one of the aggressive diseases, among children and adults. Brain tumors account for 85 to 90 percent of all primary Central Nervous System(CNS) tumors. Every year, around 11,700 people are diagnosed with a brain tumor. The 5-year survival rate for people with a cancerous brain or CNS tumor is approximately 34 percent for men and36 percent for women. Brain Tumors are classified as: Benign Tumor, Malignant Tumor, Pituitary Tumor, etc. Proper treatment, planning, and accurate diagnostics should be implemented to improve the life expectancy of the patients. The best technique to detect brain tumors is Magnetic Resonance Imaging (MRI). A huge amount of image data is generated through the scans. These images are examined by the radiologist. A manual examination can be error-prone due to the level of complexities involved in brain tumors and their properties.</h3></p>
+		    </div>
+		</div>
+	<div class="container">
+	<img src={{user_img}} width="100%" height="100%">
+	</div>
+	<div class="">
+			<a class="justify-content-center" href="/upload">
+			<button>next page</button>
+			</a>	       
+	</div>
+	</div>
+	
+
+
+</body>
+</html>
